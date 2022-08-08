@@ -1,0 +1,14 @@
+.cen{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 26%;
+}
+.cen h1{
+    font-size:4em;
+    line-height: 1em;
+    margin: 10% 0px;
+}
+.cen p{
+    margin-bottom: 10%;
+    color: gray;
+}

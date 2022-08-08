@@ -1,0 +1,13 @@
+.but{
+    border: 1px solid black;
+    width: 8em;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 0.7em;
+}
+.but:hover{
+    background-color: antiquewhite;
+    color: black;
+    border: 1px solid antiquewhite;
+}

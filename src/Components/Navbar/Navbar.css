@@ -1,0 +1,32 @@
+.nav{
+    background-color: white;
+}
+nav{
+    padding: 1em;
+    display: flex;
+    gap: 10em;
+}
+.sn{
+    font-size: 1.5rem;
+    margin-left: 5em;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3em;
+}
+li:hover{
+    color: brown;
+    font-weight: bolder;
+}
+@media screen and (max-width: 750px){
+    nav{
+        gap: 1em;
+    }
+    .nav ul{
+        display: grid;
+        gap: 0;
+    }
+}
+
